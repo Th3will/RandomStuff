@@ -1,6 +1,7 @@
 import time
 from playsound import playsound
-
+#Pomodoro Timer, prompts 3 queries, the first two asks the work & rest time and the last asks how many cycles of the timer you want 
+#soundfiles courtesy of some random thing I found online
 def countdown(t):
     while t:
         mins, secs = divmod(t, 60)
