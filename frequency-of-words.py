@@ -1,3 +1,4 @@
+#Checks the amount of times a words shows up in a file that has each word seperated by a /n (new line) 
 List = open("yeet.txt").readlines()
 for i in range(len(List)):
     List[i] = List[i].lower()
