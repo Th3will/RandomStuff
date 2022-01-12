@@ -24,7 +24,7 @@ def pomodoro(t1,t2,t3):
 # input time in seconds
 t1 = int(input("How long would you like to work?")) * 60
 t2 = int(input("How long would you like to rest?")) * 60
-t3 = int(input("How many cycles would you like to work?")) * 60
+t3 = int(input("How many cycles would you like to work?"))
   
 # function call
 pomodoro(t1,t2,t3)
