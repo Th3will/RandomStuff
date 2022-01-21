@@ -1,3 +1,4 @@
+#cleanly formats broken number lists into a new one without numbers
 lines = open("yeet.txt").readlines()
 spaced = []
 for line in lines:
